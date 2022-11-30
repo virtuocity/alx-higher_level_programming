@@ -6,7 +6,15 @@ Indentation is very important in python.
 	range()  
 -returns a sequence of numbers ,starting from 0 by default and increments by 1 (by default) and stops before  
 a specified number.  
-**range(start, stop, step)  
+**range(start, stop, step)**  
+
+*Number Randomizer*  
+
+	import random
+
+	number = random.randint(-10,000, 10000)
+
+
 
 ## Tasks
 
