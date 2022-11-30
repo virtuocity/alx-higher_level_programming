@@ -11,3 +11,10 @@ a specified number.
 ## Tasks
 
 ## Links
+PEP
+https://peps.python.org/pep-0008/  
+range  
+Control flow tools  
+https://docs.python.org/3/tutorial/controlflow.html  
+Compound statements  
+https://docs.python.org/3/reference/compound_stmts.html#while  
