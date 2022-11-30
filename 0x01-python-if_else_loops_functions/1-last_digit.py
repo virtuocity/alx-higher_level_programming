@@ -12,4 +12,4 @@ elif lastDigit != 0 and lastDigit < 6:
     print(f"Last digit of {number} is {lastDigit} {str2}")
 if number < 0:
     if lastDigit != 0 and lastDigit < 6:
-        print(print(f"Last digit of {number} is {lastDigit} {str2}"))
+        print(print(f"Last digit of {number} is {lastDigit * -1} {str2}"))
