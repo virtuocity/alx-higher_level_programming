@@ -14,7 +14,12 @@ a specified number.
 
 	number = random.randint(-10,000, 10000)
 
+### Functions
+From a function's perspective:  
 
+A parameter is the variable listed inside the parentheses in the function definition.  
+
+An argument is the value that is sent to the function when it is called.  
 
 ## Tasks
 
