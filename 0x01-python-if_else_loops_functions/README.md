@@ -21,6 +21,10 @@ A parameter is the variable listed inside the parentheses in the function defini
 
 An argument is the value that is sent to the function when it is called.  
 
+#### Arbitrary Arguments,args
+If you do not know how many arguments that will be passed into your function, add a * before the parameter name in  
+the function definition.  
+
 ## Tasks
 
 ## Links
