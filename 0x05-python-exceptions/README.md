@@ -1,5 +1,5 @@
 # 0x05. Python - Exceptions
 ## Notes and Thoughts
-There are (at least) two distinguishable kinds of errors: syntax errors and exceptions.
+There are (at least) two distinguishable kinds of errors: syntax errors and exceptions.  
 *Syntax Errors* Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python:  
 
