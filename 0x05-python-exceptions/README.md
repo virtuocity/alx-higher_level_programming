@@ -26,4 +26,16 @@ A try statement may have more than one except clause, to specify handlers for di
 	except (RuntimeError, TypeError, NameError):
 		pass
 
-The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed.  
+The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error  
+when empty code not allowed.  
+The try … except statement has an optional else clause, which, when present, must follow all except clauses. It is useful for code that must be  
+executed if the try clause does not raise an exception. For example:  
+
+	for arg in sys.argv[1:]:
+    try:
+        f = open(arg, 'r')
+    except OSError:
+        print('cannot open', arg)
+    else:
+        print(arg, 'has', len(f.readlines()), 'lines')
+        f.close()	
