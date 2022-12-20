@@ -22,6 +22,7 @@ the except keyword, the except clause is executed, and then execution continues 
 outer try statements; if no handler is found, it is an unhandled exception and execution stops with a message as shown above.  
 
 A try statement may have more than one except clause, to specify handlers for different exceptions.  
+	
 	except (RuntimeError, TypeError, NameError):
 		pass
 
