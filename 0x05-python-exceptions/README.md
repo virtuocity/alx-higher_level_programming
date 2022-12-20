@@ -5,12 +5,13 @@ There are (at least) two distinguishable kinds of errors: syntax errors and exce
  Exceptions come in different types, and the type is printed as part of the message: the types in the example are ZeroDivisionError, NameError and  
  TypeError  
  The *finally* keyword is used in try... except blocks. It defines a block of code to run when the try... except...else block is complete  
+
 	while True:
-	    try:
-	          x = int(input("Please enter a number: "))
-		  break
-	    except ValueError:
-	    print("Oops!  That was no valid number.  Try again...")  
+    try:
+        x = int(input("Please enter a number: "))
+        break
+    except ValueError:
+        print("Oops!  That was no valid number.  Try again...")
 
 The try statement works as follows:  
 + First, the try clause (the statement(s) between the try and except keywords) is executed  
