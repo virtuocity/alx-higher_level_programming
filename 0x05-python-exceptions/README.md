@@ -39,3 +39,10 @@ executed if the try clause does not raise an exception. For example:
     else:
         print(arg, 'has', len(f.readlines()), 'lines')
         f.close()	
+
+Before an except clause’s suite is executed, details about the exception are stored in the *sys module* and can be accessed via sys.exc_info()
+
+**Else Clause**
+The optional else clause is executed if the control flow leaves the try suite, no exception was raised, and no return, continue, or break statement was executed. Exceptions in the else clause are not handled by the preceding except clauses.
+**Finally clause**
+If finally is present, it specifies a ‘cleanup’ handler. The try clause is executed, including any except and else clauses. If an exception occurs in any of the clauses and is not handled, the exception is temporarily saved. The finally clause is executed. If there is a saved exception it is re-raised at the end of the finally clause. If the finally clause raises another exception, the saved exception is set as the context of the new exception. If the finally clause executes a return, break or continue statement, the saved exception is discarded:
