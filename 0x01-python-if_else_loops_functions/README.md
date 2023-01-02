@@ -1,7 +1,16 @@
 # 0x01. Python - if/else, loops, functions
 
 ## Notes and Thoughts
-Indentation is very important in python.  
+Indentation is very important in python. 
+
+Compound statements (loops...for ....while ,conditionals if....elif....else...), contain (groups of) other statements; they affect or control the execution of those other statements in some way. 
+
+*try* specifies exception handlers and/or cleanup code for a group of statements, while the *with* statement allows the execution of initialization and finalization code around a block of code. *Function and class* definitions are also syntactically compound statements.
+A compound statement consists of one or more ‘clauses.’ A clause consists of a header and a ‘suite.’ 
+
+ A suite can be one or more semicolon-separated simple statements on the same line as the header, following the header’s colon, or it can be one or more indented statements on subsequent lines.
+
+ 
 
 	range()  
 -returns a sequence of numbers ,starting from 0 by default and increments by 1 (by default) and stops before  
