@@ -6,4 +6,9 @@
 + Objects can also have functionality by using functions that belong to a class. Such functions are called methods of the class
 + Fields are of two types - they can belong to each instance/object of the class or they can belong to the class itself. They are called instance variables and class variables respectively.
 + A class is created using the class keyword. 
+
 ### The __init__ method
+
+## Links
+https://python.swaroopch.com/oop.html  
+https://python-course.eu/oop/object-oriented-programming.php 
