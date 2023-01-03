@@ -8,6 +8,7 @@
 + A class is created using the class keyword. 
 
 ### The __init__ method
+The __init__ method is run as soon as an object of a class is instantiated (i.e. created). The method is useful to do any initialization (i.e. passing initial values to your object)
 
 ## Links
 https://python.swaroopch.com/oop.html  
