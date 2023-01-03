@@ -1,4 +1,6 @@
-#!/usr/bin/ptyhon3
+#!/usr/bin/python3
 """Define the square class"""
+
+
 class Square:
-    """Class square with nothing"""
+    """class square with nothing"""
