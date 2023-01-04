@@ -21,3 +21,4 @@ Integration testing is defined as the testing of combined parts of an applicatio
 
 System testing tests the system as a whole. Once all the components are integrated, the application as a whole is tested rigorously to see that it meets the specified Quality Standards. 
 ## Links
+https://alx-intranet.hbtn.io/concepts/47
