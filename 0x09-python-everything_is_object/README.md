@@ -6,7 +6,17 @@ An object is something a variable can refer to
     a = "banana"
     b = "banana
 ```
-both a and b are objects that a variable can refer to
+both a and b are objects that a variable can refer to in this case both a and b refer to the same variable.
+Since strings are *immutable*, Python optimizes resources by making two names that refer to the same string value refer to the same object.
+### Aliasing
+
+```python
+a = [1, 2, 3]
+b = a
+a is b
+```
+
+
 ## Links 
 
 Objects
