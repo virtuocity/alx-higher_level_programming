@@ -13,6 +13,7 @@ def new_in_list(my_list, idx, element):
 
 
 def new_in_list(my_list, idx, element):
+    #Function that adds element at index my_list.insert(i, x)
     new_list = my_list.copy()
     sizeoflist = len(my_list)
     if idx > sizeoflist - 1 or idx < 0 or my_list is None or idx is None:
