@@ -10,7 +10,14 @@ A compound statement consists of one or more ‘clauses.’ A clause consists of
 
  A suite can be one or more semicolon-separated simple statements on the same line as the header, following the header’s colon, or it can be one or more indented statements on subsequent lines.
 
- 
+ **The For Statement**
+The for statement is used to iterate over the elements of a sequence. 
+
+	for_stmt ::=  "for" target_list "in" starred_list ":" suite
+              ["else" ":" suite]
+
+
+
 
 	range()  
 -returns a sequence of numbers ,starting from 0 by default and increments by 1 (by default) and stops before  

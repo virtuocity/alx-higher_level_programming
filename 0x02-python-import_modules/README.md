@@ -8,6 +8,8 @@ Within a module, the module’s name (as a string) is available as the value of 
 
 A *namespace* is the place where variables are stored. Namespaces are implemented as dictionaries.There are the local, global and built-in namespaces as well as nested namespaces in objects (in methods). Namespaces support modularity by preventing naming conflicts. For instance, the functions builtins.open and os.open() are distinguished by their namespaces. 
 
+The imported module names, if placed at the top level of a module (outside any functions or classes), are added to the module’s global namespace.  
+
 
 ## Links
 https://docs.python.org/3/tutorial/modules.html 
