@@ -26,6 +26,21 @@ f.write(string) writes the contents of string to the file, returning the number 
 
     f.write('This is a test\n')
     15
+f.tell() returns an integer giving the file object’s current position in the file represented as number of bytes from the beginning of the file when in binary mode and an opaque number when in text mode.
 
+To change the file object’s position, use f.seek(offset, whence). The position is computed from adding offset to a reference point; the reference point is selected by the whence argument. A whence value of 0 measures from the beginning of the file, 1 uses the current file position, and 2 uses the end of the file as the reference point. whence can be omitted and defaults to 0, using the beginning of the file as the reference point.
+
+    f = open('workfile', 'rb+')
+    f.write(b'0123456789abcdef')
+    16
+    f.seek(5)      # Go to the 6th byte in the file
+    5
+    f.read(1)
+    b'5'
+    f.seek(-3, 2)  # Go to the 3rd byte before the end
+    13
+    f.read(1)
+    b'd'
 
 ## Links
+https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files  
