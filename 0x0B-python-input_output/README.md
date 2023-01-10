@@ -56,5 +56,11 @@ Another variant of the dumps() function, called dump(), simply serializes the ob
 
     json.dump(x, f)
 
+To decode the object again, if f is a binary file or text file object which has been opened for reading:
+
+    x = json.load(f)
+
+**Note:** JSON files must be encoded in UTF-8. Use encoding="utf-8" when opening JSON file as a text file for both of reading and writing.
+
 ## Links
 https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files  
