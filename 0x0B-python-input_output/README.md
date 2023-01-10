@@ -12,18 +12,19 @@ The first argument is a string containing the filename. The second argument is a
     We can check that the file has been properly closed
     f.close
     True
-```
+    ```
 To read a file’s contents, call f.read(size), which reads some quantity of data and returns it as a string (in text mode) or bytes object (in binary mode). size is an optional numeric argument. When size is omitted or negative, the entire contents of the file will be read and returned.  
 f.readline() reads a single line from the file; a newline character (\n) is left at the end of the string, and is only omitted on the last line of the file if the file doesn’t end in a newline  
-For reading lines from a file, you can loop over the file object. This is memory efficient, fast, and leads to simple code:
+For reading lines from a file, you can loop over the file object. This is memory efficient, fast, and leads to simple code:  
 
-```python
-for line in f:
-print(line, end='')
-```
+    ```python
+    for line in f:
+    print(line, end='')
+    ```
 If you want to read all the lines of a file in a list you can also use list(f) or f.readlines().
 
-f.write(string) writes the contents of string to the file, returning the number of characters written.
+f.write(string) writes the contents of string to the file, returning the number of characters written.  
+
     f.write('This is a test\n')
     15
 
