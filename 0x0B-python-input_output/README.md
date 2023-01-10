@@ -42,5 +42,19 @@ To change the file object’s position, use f.seek(offset, whence). The position
     f.read(1)
     b'd'
 
+### Saving structured data with json
+ Numbers take a bit more effort, since the read() method only returns strings, which will have to be passed to a function like int(), which takes a string like '123' and returns its numeric value 123  
+ Rather than having users constantly writing and debugging code to save complicated data types to files, Python allows you to use the popular data interchange format called JSON (JavaScript Object Notation). The standard module called json can take Python data hierarchies, and convert them to string representations; this process is called serializing. Reconstructing the data from the string representation is called deserializing. Between serializing and deserializing, the string representing the object may have been stored in a file or data, or sent over a network connection to some distant machine.  
+ f you have an object x, you can view its JSON string representation with a simple line of code:
+
+    import json
+    x = [1, 'simple', 'list']
+    json.dumps(x)
+    '[1, "simple", "list"]'
+
+Another variant of the dumps() function, called dump(), simply serializes the object to a text file. So if f is a text file object opened for writing, we can do this:
+
+    json.dump(x, f)
+
 ## Links
 https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files  
