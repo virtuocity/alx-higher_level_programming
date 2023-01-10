@@ -17,10 +17,9 @@ To read a file’s contents, call f.read(size), which reads some quantity of dat
 f.readline() reads a single line from the file; a newline character (\n) is left at the end of the string, and is only omitted on the last line of the file if the file doesn’t end in a newline  
 For reading lines from a file, you can loop over the file object. This is memory efficient, fast, and leads to simple code:  
 
-    ```python
     for line in f:
     print(line, end='')
-    ```
+    
 If you want to read all the lines of a file in a list you can also use list(f) or f.readlines().
 
 f.write(string) writes the contents of string to the file, returning the number of characters written.  
