@@ -6,10 +6,12 @@ The first argument is a string containing the filename. The second argument is a
 + Because UTF-8 is the modern de-facto standard, encoding="utf-8" is recommended unless you know that you need to use a different encoding. 
 + Appending a 'b' to the mode opens the file in binary mode. Binary mode data is read and written as bytes objects. You can not specify encoding when opening file in binary mode.
 + It is good practice to use the with keyword when dealing with file objects. The advantage is that the file is properly closed after its suite finishes, even if an exception is raised at some point. Using with is also much shorter than writing equivalent try-finally blocks:
+    ```python
     with open('workfile', encoding="utf-8") as f:
     read_data = f.read()
-    # We can check that the file has been properly closed
+    We can check that the file has been properly closed
     f.close
-    >>>True
+    True
+```
 
 ## Links
