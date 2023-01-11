@@ -25,3 +25,9 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.  
 If the implementation is easy to explain, it may be a good idea.  
 Namespaces are one honking great idea -- let's do more of those!  
+
+## Everything is object
+You may have heard the term “first-class object” in other programming contexts. In Python, functions are
+first-class objects. You can pass a function as an argument to another function. Modules are first-class objects.
+You can pass an entire module as an argument to a function. Classes are first-class objects, and individual
+instances of a class are also first-class objects.
