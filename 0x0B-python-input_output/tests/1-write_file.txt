@@ -1,0 +1,23 @@
+Tests for ``write_file`` from 1-write_file.py
+========================================
+
+``add`` from the ``1-write_file.py`` module:
+>>> write_file = __import__('1-write_file').write_file
+>>> x_characters = write_file("my_second_file.txt", "ALXSE is the best!!!") 
+>>> x_characters
+20
+>>> y_characters = write_file("my_second_file", "ALXSE is the best!!!")     
+>>> z_characters = write_file("my_third_file", 123)                     
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "E:\Projects\C\ALXSE\alx-higher_level_programming\0x0B-python-input_output\1-write_file.py", line 10, in write_file     
+    n = f.write(text)
+        ^^^^^^^^^^^^^
+TypeError: write() argument must be str, not int
+>>> y_characters
+20
+>>> z_characters
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'z_characters' is not defined. Did you mean: 'x_characters'?
+>>>
