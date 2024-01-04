@@ -26,6 +26,19 @@ The imported module names, if placed at the top level of a module (outside any f
 ## Random
 A good commit message will explain the why behind your changes. In other words, a commit message describes what problem your changes solve and how it solves them.  
 
+5 Steps To Improve Your Git Messages: 
+
++ **Capitalization and Punctuation:** The first word should be capitalized and not end in punctuation.
++ **Commit type:** The type of the commit has to be specified to describe your changes. You could use: *Bugfix, Refactor, Hotfix*  
++ **Length:** The first line should not be longer than 50 characters and the body should be restricted to a line length of 72 - see Linus Torvalds explanation or this helpful guide  
++ **Mood:** Always use imperative mood in the subject because it gives the tone you are giving an order or request  
++ **Content:**Direct sentences without phrases like: though, I think, kind
+Content is very important and if you write it you should consider and answer the following questions while you write it down:
+
+What is the reason for these changes?  
+What was the effect that my changes made?  
+Why was the change needed?  
+What are the changes in reference to?  
 ## Resources
 Read or watch:
 
