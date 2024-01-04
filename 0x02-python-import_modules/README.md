@@ -23,6 +23,9 @@ A *namespace* is the place where variables are stored. Namespaces are implemente
 
 The imported module names, if placed at the top level of a module (outside any functions or classes), are added to the module’s global namespace.  
 
+## Random
+A good commit message will explain the why behind your changes. In other words, a commit message describes what problem your changes solve and how it solves them.  
+
 ## Resources
 Read or watch:
 
