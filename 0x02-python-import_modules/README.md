@@ -30,9 +30,9 @@ A good commit message will explain the why behind your changes. In other words, 
 
 + **Capitalization and Punctuation:** The first word should be capitalized and not end in punctuation.
 + **Commit type:** The type of the commit has to be specified to describe your changes. You could use: *Bugfix, Refactor, Hotfix*  
-+ **Length:** The first line should not be longer than 50 characters and the body should be restricted to a line length of 72 - see Linus Torvalds explanation or this helpful guide  
++ **Length:** The first line should not be longer than 50 characters and the body should be restricted to a line length of 72 - see [this helpful guide](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html?ref=paulsblog.dev) 
 + **Mood:** Always use imperative mood in the subject because it gives the tone you are giving an order or request  
-+ **Content:**Direct sentences without phrases like: though, I think, kind
++ **Content:** Direct sentences without phrases like: though, I think, kind
 Content is very important and if you write it you should consider and answer the following questions while you write it down:
 
 What is the reason for these changes?  
