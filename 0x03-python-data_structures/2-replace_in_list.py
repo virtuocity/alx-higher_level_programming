@@ -4,6 +4,6 @@ def replace_in_list(my_list, idx, element):
     if idx < 0:
         return None
     if idx > sizeoflist - 1 or idx is None or idx < 0 or my_list is None:
-        return my_list
+        return (my_list)
     my_list[idx] = element
     return (my_list)
