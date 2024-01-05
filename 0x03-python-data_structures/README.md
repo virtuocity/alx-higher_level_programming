@@ -69,7 +69,7 @@ Read or watch:
 + [Data structures(until 5.3. Tuples and Sequences included)](https://docs.python.org/3/tutorial/datastructures.html)
 + [Learn to Program 6 : Lists](https://www.youtube.com/watch?v=A1HUzrvS-Pw)
 +  [Lambda Operator, filter, reduce and map](https://python-course.eu/advanced-python/lambda-filter-reduce-map.php)  
-+ List comprehensions  
-https://python-course.eu/advanced-python/list-comprehension.php  
++ [List comprehensions](https://python-course.eu/advanced-python/list-comprehension.php )
+ 
 
 	
