@@ -2,7 +2,9 @@
 """
     function to add two integers
     Args:
-    a and b and return sum
+        int/ float a and int/ floa b
+    return:
+        sum of a and b
 """
 
 
