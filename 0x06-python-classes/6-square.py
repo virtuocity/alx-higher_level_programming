@@ -21,14 +21,17 @@ class Square:
         self.__position = position
 
     def area(self):
+        """ return area of swuare"""
         return (self.__size * self.__size)
 
     @property
     def size(self):
+        """ size getter """
         return self.__size
 
     @size.setter
     def size(self, value):
+        """ size setter """
         if type(value) != int:
             raise TypeError("size must be an integer")
         if value < 0:
@@ -42,6 +45,7 @@ class Square:
 
     @position.setter
     def position(self, position):
+        """ position setter """
         if type(position) is not tuple or len(position) != 2 or\
            type(position[0]) != int or type(position[1]) != int or\
            position[0] < 0 or position[1] < 0:
@@ -49,6 +53,7 @@ class Square:
         self.__position = position
 
     def my_print(self):
+        """prints square"""
         if self.__size == 0:
             print()
         else:
@@ -56,7 +61,7 @@ class Square:
                 print()
             for i in range(self.__size):
                 for j in range(self.__position[0]):
-                        print("{}". format(" "), end="")
+                    print("{}". format(" "), end="")
                 for j in range(self.__size):
-                        print("{}". format("#"), end="")
+                    print("{}". format("#"), end="")
                 print()
