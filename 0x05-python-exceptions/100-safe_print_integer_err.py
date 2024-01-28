@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-""" a function that prints an integer """
 import sys
+""" a function that prints an integer """
 
 
 def safe_print_integer_err(value):
