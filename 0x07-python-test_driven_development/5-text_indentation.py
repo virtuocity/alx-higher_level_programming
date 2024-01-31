@@ -7,6 +7,7 @@ def text_indentation(text):
         each of these characters: ., ? and :
         Args:
             text: text to parse
+        Return: 
     """
     if type(text) != str:
         raise TypeError("text must be a string")
@@ -23,6 +24,6 @@ def text_indentation(text):
             print()
         else:
             if (text[i] == ' ' and (text[i - 1]
-                                    in ".?:" or text[i - 1] == ' ')):
+                                    in ".?:")):
                 continue
             print("{}".format(text[i]), end="")
