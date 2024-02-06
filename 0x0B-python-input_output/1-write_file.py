@@ -13,7 +13,7 @@ def write_file(filename="", text=""):
     """
     # check if file or text args is absent/empty?
     if filename is None or text is None:
-        return
+        return 0
     n = 0
     with open(filename, "w", encoding="utf-8") as f:
         n = f.write(text)
