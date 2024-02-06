@@ -8,7 +8,7 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-    def to_json(self):
+    def to_json(self, attrs=None):
         obj_dict = {}
         if hasattr(self, '__dict__'):
             return (self.__dict__)
