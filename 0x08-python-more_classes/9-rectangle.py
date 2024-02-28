@@ -74,6 +74,17 @@ class Rectangle:
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
+        """
+        bigger_or_equal - compare twi rectangles
+        Args:
+            rect_1 : Rectange 1
+            rect_2 : Rectange 2
+        Return
+            rect_1 or rect-2 
+        Description:
+            A method should be static if it doesnt access either
+            the instance or the class
+        """
         if type(rect_1) != Rectangle:
             raise TypeError("rect_1 must be an instance of Rectangle")
         if type(rect_2) != Rectangle:
@@ -85,5 +96,12 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
+        """
+        square - returns a new Rectangle instance with width == height == size
+        Args:
+            size - size of square
+        Description: 
+            class methods can be used to initialize objects. In  
+        """
         square_one = cls(size, size)
         return square_one
