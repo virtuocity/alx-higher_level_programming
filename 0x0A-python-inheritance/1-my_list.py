@@ -4,6 +4,7 @@
 
 class MyList(list):
     """Implement lists"""
+
     def print_sorted(self):
         """Sort a list
         Args:
