@@ -4,7 +4,6 @@
 
 class MyList(list):
     """Implement lists"""
-
     def print_sorted(self):
         """Sort a list
         Args:
@@ -13,3 +12,4 @@ class MyList(list):
         Sorted list
         """
         print(sorted(self))
+
