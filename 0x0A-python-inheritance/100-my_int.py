@@ -14,21 +14,22 @@ class MyInt(int):
 			self- the object
 			value - int 
 		"""
-		  self.value = value
+		self.value = value
 
 	def __eq__(self, num):
-		"""eq - modify from == to !=
-		   Args:
-				self- instance of class
-				num-value to check
 		"""
-		   return self.value != num
+		eq - modify from == to !=
+		Args:
+		    self- instance of class
+			num-value to check
+		"""
+		return self.value != num
 
-	def __ne__(self, numb):
+	def __ne__(self, num):
 		"""
-			ne - modify from != to ==
-			Args:
-			   self- instance of class
-			   num-value to check
+		ne - modify from != to ==
+		Args:
+		    self- instance of class
+			num-value to check
 		"""
-		 return self.value == num
+		return self.value == num
