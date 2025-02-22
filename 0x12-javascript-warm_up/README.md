@@ -47,3 +47,18 @@ Scope of variables
 What are the arithmetic operators and how to use them  
 How to manipulate dictionary  
 How to import a file
+
+## Install Node 14
+
+```console
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
+
+## Install semi-standard
+
+[Documentation](https://github.com/standard/semistandard)
+
+```console
+$ sudo npm install semistandard --global
+```
