@@ -94,6 +94,21 @@ if (iceCream === "chocolate") {
 }
 ```
 
+=== means strictly equal, This performs a test to see if two values are equal and
+of the same data type.  
 notice the opening and closing curly brackets but the construct is the same as in C
-or python
+or python  
 semicolon similarity with c PL
+
+## Functions
+
+You can also define your own functions. In the next example, we create a simple function
+which takes two numbers as arguments and multiplies them:
+
+```javascript
+function multiply(num1, num2) {
+  let result = num1 * num2;
+  return result;
+}
+```
+
