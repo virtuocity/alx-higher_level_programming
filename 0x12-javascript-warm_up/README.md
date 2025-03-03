@@ -62,3 +62,38 @@ $ sudo apt-get install -y nodejs
 ```console
 $ sudo npm install semistandard --global
 ```
+
+## Notes
+
+### Variables
+
+are containers that store values. You start by declaring a variable with the let keyword,
+followed by the name you give to the variable:
+
+```javascript
+let myVar;
+```
+
+is how you would declare a var in js
+
+**Everything in JavaScript is an object and can be stored in a variable.**
+e.g
+
+```javascript
+let myVar = document.querySelector("h1");
+```
+
+conditionals:
+
+```javascript
+let iceCream = "chocolate";
+if (iceCream === "chocolate") {
+  alert("Yay, I love chocolate ice cream!");
+} else {
+  alert("Awwww, but chocolate is my favorite…");
+}
+```
+
+notice the opening and closing curly brackets but the construct is the same as in C
+or python
+semicolon similarity with c PL
