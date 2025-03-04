@@ -112,3 +112,22 @@ function multiply(num1, num2) {
 }
 ```
 
+### Event handlers
+
+re code structures that listen for activity in the browser, and run code in response. The most obvious example is handling the _click_ event, which is fired by the browser when you click on something with your mouse.
+
+```javascript
+document.querySelector("html").addEventListener("click", function () {
+  alert("Ouch! Stop poking me!");
+});
+```
+
+There are a number of ways to attach an event handler to an element. Here we select the <html> element. We then call its addEventListener() function, passing in the name of the event to listen for ('click') and a function to run when the event happens.
+
+The function we just passed to addEventListener() here is called an anonymous function, because it doesn't have a name. There's an alternative way of writing anonymous functions, which we call an arrow function. An arrow function uses () => instead of function ():
+
+```javascript
+document.querySelector("html").addEventListener("click", () => {
+  alert("Ouch! Stop poking me!");
+});
+```
