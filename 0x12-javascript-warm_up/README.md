@@ -175,6 +175,8 @@ console.log(doubled); // [2, 4, 6]
 
 ## Arrow functions
 
+An anonymous function has no name. You'll often see anonymous functions when a function expects to receive another function as a parameter. In this case, the function parameter is often passed as an anonymous function.
+
 If you pass an anonymous function like this, there's an alternative form you can use, called an arrow function. Instead of function(event), you write (event) =>:
 
 ```javascript
