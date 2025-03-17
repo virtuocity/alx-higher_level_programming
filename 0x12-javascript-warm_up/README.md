@@ -145,3 +145,19 @@ undefined when something is devoid of a value:
 - A variable declaration without initialization (let x;) implicitly initializes the variable to undefined.
 - Many methods, such as Array.prototype.find() and Map.prototype.get(), return undefined when no element
   is found.
+
+## An Expression
+an expression is a valid unit of code that resolves to a value. There are two types of expressions: those
+that have side effects (such as assigning values) and those that purely evaluate.
+
+## Control flow and error handling
+Falsy values  
+The following values evaluate to false (also known as Falsy values):  
+ 
++ false
++ undefined
++ null
++ 0
++ NaN
++ the empty string ("")
+All other values—including all objects—evaluate to true when passed to a conditional statement.   
