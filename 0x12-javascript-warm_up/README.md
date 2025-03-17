@@ -147,17 +147,48 @@ undefined when something is devoid of a value:
   is found.
 
 ## An Expression
+
 an expression is a valid unit of code that resolves to a value. There are two types of expressions: those
 that have side effects (such as assigning values) and those that purely evaluate.
 
 ## Control flow and error handling
+
 Falsy values  
-The following values evaluate to false (also known as Falsy values):  
- 
-+ false
-+ undefined
-+ null
-+ 0
-+ NaN
-+ the empty string ("")
-All other values—including all objects—evaluate to true when passed to a conditional statement.   
+The following values evaluate to false (also known as Falsy values):
+
+- false
+- undefined
+- null
+- 0
+- NaN
+- the empty string ("")
+  All other values—including all objects—evaluate to true when passed to a conditional statement.
+
+The parseInt() function parses a string argument and returns an integer of the specified radix
+(the base in mathematical numeral systems).
+
+const originals = [1, 2, 3];
+
+const doubled = originals.map(item => item \* 2);
+
+console.log(doubled); // [2, 4, 6]
+
+## Arrow functions
+
+If you pass an anonymous function like this, there's an alternative form you can use, called an arrow function. Instead of function(event), you write (event) =>:
+
+```javascript
+textBox.addEventListener("keydown", (event) => {
+  console.log(`You pressed "${event.key}".`);
+});
+```
+
+If the function only takes one parameter, you can omit the parentheses around the parameter:
+
+```javascript
+textBox.addEventListener("keydown", (event) => {
+  console.log(`You pressed "${event.key}".`);
+});
+```
+
+Finally, if your function contains only one line that's a return statement, you can also omit the braces and the return keyword and implicitly return the expression. In the following example, we're using the _map()_ method of ` Array` to double every value in the original array:
