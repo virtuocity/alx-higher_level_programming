@@ -194,3 +194,11 @@ textBox.addEventListener("keydown", (event) => {
 ```
 
 Finally, if your function contains only one line that's a return statement, you can also omit the braces and the return keyword and implicitly return the expression. In the following example, we're using the _map()_ method of ` Array` to double every value in the original array:
+
+```javascript
+const originals = [1, 2, 3];
+const doubled = originals.map((item) => item * 2);
+console.log(doubled); // [2, 4, 6]
+```
+
+The map() method takes each item in the array in turn, passing it into the given function. It then takes the value returned by that function and adds it to a new array.
