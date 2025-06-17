@@ -6,12 +6,13 @@
 
 - [What is Database & SQL?](https://www.youtube.com/watch?v=FR4QIeZaPeM)
 - [A Basic MySQL Tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
-- [SQL technique: functions]()
-- SQL technique: subqueries
+- [SQL technique: aggregate functions](https://www.w3schools.com/sql/sql_aggregate_functions.asp)
+- [SQL technique: subqueries](https://www.tutorialspoint.com/sql/sql-sub-queries.htm)
 - [What makes the big difference between a backtick and an apostrophe?](https://stackoverflow.com/questions/29402361/what-makes-the-big-difference-between-a-backtick-and-an-apostrophe/29402458)
   MySQL Cheat Sheet
 - [MySQL 8.0 SQL Statement Syntax](https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html)
 - [installing MySQL in Ubuntu 20.04](https://phoenixnap.com/kb/install-mysql-ubuntu-20-04)
+- [SQL Select Query](https://www.geeksforgeeks.org/sql-select-query/)
 
 ## Learning Objectives
 
